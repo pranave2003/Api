@@ -11,6 +11,7 @@ class Location extends StatefulWidget {
 
 class _LocationState extends State<Location> {
   String _locationmessage = "";
+  var a = 0;
   // ignore: unused_element
   void _getcurrentlocation() async {
     print("get");
