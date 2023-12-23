@@ -12,7 +12,6 @@ class Location extends StatefulWidget {
 class _LocationState extends State<Location> {
   String _locationmessage = "";
 
-  // ignore: unused_element
   void _getcurrentlocation() async {
     print("get");
     final position = await Geolocator.getCurrentPosition(
